@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/EnglishNow.Web/.vs/
+/EnglishNow.Web/EnglishNow.Web/bin
+/EnglishNow.Web/EnglishNow.Web/obj
+/EnglishNow.Web/EnglishNow.Web/EnglishNow.Web.csproj.user
