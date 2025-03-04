@@ -1,9 +1,10 @@
-using System.Diagnostics;
-using EnglishNow.Web.Models;
+
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EnglishNow.Web.Controllers
 {
+    [Authorize]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
@@ -15,7 +16,6 @@ namespace EnglishNow.Web.Controllers
 
         public IActionResult Index()
         {
-            throw new Exception("Erro de exemplo");
 
             return View();
         }
