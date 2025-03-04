@@ -12,7 +12,7 @@ namespace EnglishNow.Web.Controllers
 
             var model = new ErrorViewModel
             {
-                MensagemErro = expectionHandlerFeature == null? "Erro insperado": expectionHandlerFeature.Error.Message
+                MensagemErro = expectionHandlerFeature == null ? "Erro insperado" : expectionHandlerFeature.Error.Message
             };
 
             return View(model);
